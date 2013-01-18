@@ -9,7 +9,7 @@ require.config({
   },
   shim: {
     'angular' : {'exports' : 'angular'},
-    'angular-resource' : {deps:['angular']},
+    'angularResource' : {deps:['angular']},
     'bootstrap': {deps:['jquery']},
     'underscore': {exports: '_'}
   },
@@ -22,6 +22,7 @@ require.config({
 require( [
   'angular',
   'app',
+  'angularResource',
   'services/services',
   'controllers/controllers',
   'controllers/navbar',

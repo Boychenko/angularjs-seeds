@@ -1,4 +1,4 @@
 'use strict';
-define(['angular'], function (angular) {
-  return angular.module('myApp', []);
+define(['angular','services/services'], function (angular) {
+  return angular.module('myApp', ['productServices']);
 });
