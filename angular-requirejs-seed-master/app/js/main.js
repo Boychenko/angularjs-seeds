@@ -1,6 +1,6 @@
 require.config({
   paths: {
-    jquery: '../lib/jquery/jquery-1.8.2.min',
+    jquery: '../lib/jquery/jquery-1.9.0',
     bootstrap: '../lib/bootstrap/js/bootstrap',
     underscore: '../lib/underscore/underscore',
     angular: '../lib/angular/angular',
@@ -28,7 +28,8 @@ require( [
   'controllers/navbar',
   'filters/filters',
   'directives/directives',
-  'routes'
+  'routes',
+  'services/appSettings'
 ], function(angular, app) {
   //This function will be called when all the dependencies
   //listed above are loaded. Note that this function could
